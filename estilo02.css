@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'STIX Two Math', serif;
+}
+
+
+body{
+	background-color: #4B4254;
+}
+main{
+	width: 80%;
+	height: 635px;
+	background-color: #4F059E;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #290252;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Micrositio{
+	margin-left: 4%;
+	margin-top: 3%;
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.Micrositio:hover{
+	background-color: #662594;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #4F059E;
+}
+
+
+#botonera{
+	margin: 0;
+	width: 60%;
+	background-color: #4F059E;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#botonera li {
+	display: inline;
+}
+
+#botonera li a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	padding-left: 9%;
+	padding-top: 10%;
+}
+
+.navdos{
+	width: 100%;
+	height: 100px;
+	background-color: #9455D9;
+}
+
+section{
+	background-color: #9455D9;
+	height: 500px;
+	width: 100%;
+}
+
+.uno{
+	width: 50%;
+	height: 850px;
+	float: left;
+	background-color: #9455D9;
+}
+
+.dos{
+	width: 50%;
+	float: right;
+	height: 850px;
+	background-color: #9455D9;
+}
+
+.fondodiseno{
+	height: 700px;
+}
+
+.derecha{
+	float: right;
+	margin-right: 8%;
+	margin-top: 15%;
+}
+
+.tamanios1{
+	color: #ffffff;
+	text-align: left;
+	font-size: 20px;
+	width: 180px;
+	height: 30px;
+	background-color: #662594;
+	margin-left: 5%;
+	margin-top: 10%;
+	padding-left: 1%;
+}
+
+.tamanios2{
+	color: #ffffff;
+	text-align: left;
+	font-size: 20px;
+	width: 100px;
+	height: 30px;
+	background-color: #662594;
+	margin-left:5%;
+}
+
+.tamanios3{
+	color: #ffffff;
+	text-align: left;
+	font-size: 20px;
+	width: 60px;
+	height: 30px;
+	background-color: #662594;
+	margin-left:5%;
+}
+
+.tamanios4{
+	color: #ffffff;
+	text-align: left;
+	font-size: 20px;
+	width: 70px;
+	height: 30px;
+	background-color: #662594;
+	margin-left:5%;
+}
+
+
+footer{
+	width: 100%;
+	height: 100px;
+	clear: left;
+	background-color: #290252;
+}
+
+.logoup{
+	margin-left: 5%;
+	margin-top: 1%;
+	float: left;
+}
+
+.agus{
+	color: #ffffff;
+	float: left;
+	margin-left: 30%;
+	margin-top: 4%;
+}
+
+
+
+.subtitulo{
+	color: #ffffff;
+	background-color: #662594;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	float: left;
+	margin-left: 5%;	
+}
+
+.parrafointegrador{
+	color: #ffffff;
+	text-align: left;
+	font-size: 20px;
+	width: 40%;
+	height: 160px;
+	background-color: #662594;
+	margin-left: 5%;
+	margin-top: 10%;
+	padding-top: 2%;
+	padding-right: 3%;
+	padding-left: 3%;
+	clear: left;
+}
+
+
+.parrafocromatico{
+	color: #ffffff;
+	text-align: left;
+	font-size: 20px;
+	width: 58%;
+	height: 70px;
+	background-color: #662594;
+	margin-left: 5%;
+	padding-top: 2%;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.paleta{
+	color: #ffffff;
+	text-align: left;
+	width: 250px;
+	font-size: 25px;
+	background-color: #662594;
+	clear: left;
+	margin-top: 10%;
+	margin-left: 5%;
+	padding-top: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.colores{
+	margin-left: 5%;
+}
+
+.tipografia{
+	color: #ffffff;
+	text-align: left;
+	width: 16%;
+	font-size: 25px;
+	background-color: #662594;
+	clear: left;
+	margin-top: 4%;
+	margin-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.parrafotipografia{
+	color: #ffffff;
+	text-align: left;
+	font-size: 20px;
+	width: 48%;
+	height: 60px;
+	background-color: #662594;
+	margin-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.roboto{
+	color: #ffffff;
+	text-align: left;
+	width: 280px;
+	font-size: 25px;
+	background-color: #662594;
+	clear: left;
+	margin-top: 4%;
+	margin-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.letras{
+	color: #ffffff;
+	text-align: left;
+	width: 400px;
+	font-size: 20px;
+	background-color: #662594;
+	clear: left;
+	margin-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.titulomapa{
+	color: #ffffff;
+	background-color: #662594;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 8%;
+	padding-right: 3%;
+	padding-left: 3%;
+	float: left;
+	margin-left: 5%;
+}
+
+.mapadesitio{
+	margin-top: 5%;
+	margin-left: 15%;
+}
+
+.galeria01{
+	clear: left;
+	margin-left: 5%;
+	padding-top: 2%;
+}
+
+.fondoweb{
+	height: 1700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Celular*/
+/*Celular*/
+/*Celular*/
+@media (min-width: 576px) and (max-width: 767px)
+{
+
+body{
+	background-color: #ffba08;
+}
+main{
+	width: 100%;
+	height: 635px;
+	background-color: #faa307;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 300px;
+	background-color: #d00000;
+	margin-left: auto;
+	margin-right: auto;
+}
+.noesta{
+	display: none;
+}
+
+nav{
+	width: 100%;
+	height: 200px;
+	background-color: #6a040f;
+}
+
+section{
+	background-color: #e85d04;
+	width: 100%;
+	height: 430px;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	/*background-color: #03071e;*/
+}
+
+
+#botonera{
+	margin: 0;
+	width: 50%;
+	background-color: #6a040f;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#botonera li {
+	display: inline;
+}
+
+#botonera li a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	padding-left: 9%;
+	padding-top: 10%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#botonera{
+	margin: 0;
+	width: 80%;
+	background-color: #4F059E;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#botonera li {
+	display: inline;
+}
+
+#botonera li a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	padding-left: 9%;
+	padding-top: 10%;
+}
+
+.uno{
+	width: 50%;
+	height: 1400px;
+	float: left;
+	background-color: #9455D9;
+}
+
+.dos{
+	width: 50%;
+	float: right;
+	height: 1400px;
+	background-color: #9455D9;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large*/
+/*Large*/
+/*Large*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+
+#botonera{
+	margin: 0;
+	width: 70%;
+	background-color: #6a040f;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#botonera li {
+	display: inline;
+}
+
+#botonera li a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	padding-left: 9%;
+	padding-top: 10%;
+}
+
+}
